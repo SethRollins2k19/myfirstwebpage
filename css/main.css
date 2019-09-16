@@ -48,7 +48,6 @@ body{
 	
 }
 .discographi-img {
-	padding-top: 200px;
 }
 
 .disc-h1 {
@@ -57,9 +56,12 @@ body{
 	text-transform: uppercase;
 }
 
-.disc-p {
+.disc-head {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 150px;
 	color: rgba(0,0,0,0.5);
 }
 
@@ -72,9 +74,11 @@ body{
 .main-div p {
 	text-align: left
 }
+
 .disc-block{
+	margin-top: 100px;
 	display: flex;
-	 justify-content: center;
+	justify-content: center;
 	
 }
 .disc-block .sect-1 {
@@ -104,8 +108,9 @@ body{
 }
 .pdis-cop {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
+	font-weight: 600;
 	text-align: left;
+	text-transform: uppercase;
 	color:black;
 	margin-top:-5px;
 	
