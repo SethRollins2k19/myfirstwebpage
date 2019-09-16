@@ -44,10 +44,10 @@ body{
 }
 
 .discographi {
-	background:white;
-	
-}
-.discographi-img {
+	background-image: url("../files/discograph.png");
+	background-repeat: no-repeat;
+	padding-bottom: 1px;
+	background-position: 50% 100%;
 }
 
 .disc-h1 {
@@ -77,6 +77,7 @@ body{
 
 .disc-block{
 	margin-top: 100px;
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: center;
 	
@@ -133,4 +134,7 @@ body{
 	top:40px;
 	right: 185px;
 	background-image: url("../files/button.svg");
+}
+.last {
+	margin-bottom: 400px;
 }
