@@ -7,7 +7,9 @@ body{
 	text-align: center;
 }
 .container{
-	max-width: 2000px;
+	padding-bottom: 589px;
+	width: 1996px;
+	background: url("../files/bgimg.png") 100% no-repeat white;
 	margin: 0px auto;
 }
 .anchor{
@@ -35,12 +37,6 @@ body{
 	padding-top: 14px;
 	padding-bottom: 8px;
 }
-header {
-	padding-bottom: 589px;
-	width: 1996px;
-	background: url("../files/bgimg.png") 100% no-repeat white;
-
-}
 .img-header {
 	position: relative;
 	right: 27px;
@@ -66,15 +62,7 @@ header {
 	text-align: center;
 	color: rgba(0,0,0,0.5);
 }
-.disc-hr{
-	position: relative;
-	bottom: 40px;
-	border: none;
-	height: 1px;
-	color: black;
-	background-color: black;
-	width: 30%;	
-}
+
 .main-div{
 	display: inline-block;
 	background: rgba(0,0,0,0.5);
@@ -84,5 +72,57 @@ header {
 .main-div p {
 	text-align: left
 }
-
-
+.disc-block{
+	display: flex;
+	 justify-content: center;
+	
+}
+.disc-block .sect-1 {
+	width:530px;
+	height:290px;
+	
+}
+.disc-block .sect-2 {
+	width:670px;
+	height:290px;
+}
+.disc-block hr {
+	border: none;
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 96%;
+	margin-left:0px;
+}
+.pdis {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: -5px;
+	color:#8b8b8b;
+	
+}
+.pdis-cop {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-align: left;
+	color:black;
+	margin-top:-5px;
+	
+}
+.pdis-cop-2 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-weight: 600;
+	color:black;
+	margin-top: 3px;
+	
+}
+.disc-block article {
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+	font-size: 14px;
+}
+.disc-block audio {
+	background-image: url("../files/button.svg");
+}
