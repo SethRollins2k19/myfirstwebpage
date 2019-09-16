@@ -124,5 +124,8 @@ body{
 	font-size: 14px;
 }
 .disc-block audio {
+	position: relative;
+	top:40px;
+	right: 185px;
 	background-image: url("../files/button.svg");
 }
