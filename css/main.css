@@ -11,7 +11,7 @@ body{
 	width: 100%;
 	background: url("../files/bgimg.png") 100% no-repeat white;
 	background-position: center top;
-	margin: 0px auto;
+	margin: -15px auto;
 }
 .anchor{
 	font-family: 'Dosis', sans-serif;
