@@ -7,9 +7,10 @@ body{
 	text-align: center;
 }
 .container{
-	padding-bottom: 589px;
-	width: 1996px;
+	height: 1000px;
+	width: 100%;
 	background: url("../files/bgimg.png") 100% no-repeat white;
+	background-position: center top;
 	margin: 0px auto;
 }
 .anchor{
