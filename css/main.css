@@ -222,3 +222,58 @@ body{
 	color:black;
 	margin-top:-5px;
 }
+.block-latt{
+	display: flex;
+	justify-content: center;
+}
+.latt-sect{
+	height:425px;
+	width: 600px;
+	margin-bottom: 50px;
+}
+.lattsect-1{
+	background: #f5f6f6;
+}
+.lattsect-2{
+	background: url("../files/sect2.png") 100% no-repeat;
+}
+.lattsect-3{
+	background: url("../files/sect3.png") 100% no-repeat;
+}
+.lattsect-4{
+	background: #f5f6f6;
+}
+.lattsect-5{
+	background: #f5f6f6;
+}
+.lattsect-6{
+	background: url("../files/sect6.png") 100% no-repeat;
+}
+.lattsect-1 hr {
+	border: none;
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 70%;
+	text-align: left;
+	margin-left:38px;
+}
+.platt{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	font-size: 12px;
+	margin-left:38px;
+	margin-top: 38px;
+	color:#8b8b8b;
+	
+}
+.platt-cop {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 12px;
+	color:black;
+	margin-left:38px;
+}
