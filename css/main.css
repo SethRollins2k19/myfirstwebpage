@@ -249,7 +249,7 @@ body{
 .lattsect-6{
 	background: url("../files/sect6.png") 100% no-repeat;
 }
-.lattsect-1 hr {
+.hr-1 {
 	border: none;
 	color: black;
 	background-color: black;
@@ -307,7 +307,7 @@ body{
 }
 .like-share-whtch {
 	position: relative;
-	bottom: 53px;
+	bottom: 55px;
 	left: 85px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
