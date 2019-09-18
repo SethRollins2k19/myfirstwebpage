@@ -150,20 +150,21 @@ body{
 }
 .block-cont {
 	display: flex;
+	justify-content:  center;
 	flex-direction: column;
-	align-items:  center;
+
 }
 .block-cont .cont-sect{
 	position: relative;
-	right:400px;
 	top: 250px;
+	left: 20%;
 	height:70px;
 	width: 400px;
 }
 .block-cont .cont-sect-2{
 	position: relative;
-	right:260px;
 	height:260px;
+	left: 20%;
 	top: 250px;
 	width: 680px;
 	margin-top: 60px;
