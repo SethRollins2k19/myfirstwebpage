@@ -1,4 +1,9 @@
 'use strict';
+let variable = prompt('Hello, what is your name ?',100);
+alert(variable);
+
+
+/*
     var multiItemSlider = (function () {
       return function (selector, config) {
         var
