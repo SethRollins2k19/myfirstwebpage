@@ -183,14 +183,14 @@ body{
 	color: black;
 }
 @media screen and (min-width: 900px) {
-.block-cont {
-	display: flex;
-	flex-direction: column;
-	align-items:  center;
-	margin-left: 340px;
-	margin-top: 400px;
+	.block-cont {
+		display: flex;
+		flex-direction: column;
+		align-items:  center;
+		margin-left: 340px;
+		margin-top: 400px;
 
-}
+	}
 }
 .block-cont hr{
 	border: none;
@@ -334,4 +334,87 @@ body{
 	margin-left: 20px;
 	
 }
- 
+.new {
+	padding-top: 170px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 125px;
+}
+.new-cont{
+	display: flex;
+	justify-content: center;
+}
+.new-block {
+	margin: 25px;
+	width: 385px;
+	height: 425px;
+	background: gray;
+}
+.new-block-2 {
+	margin: 25px;
+	width: 385px;
+	height: 425px;
+	background: gray;
+}
+
+.new-block:nth-child(1){
+	background: url("../files/phcard.png") 100% no-repeat;
+}
+.new-block:nth-child(2){
+	background: url("../files/phcard2.png") 100% no-repeat;
+}
+.new-block:nth-child(3){
+	background: url("../files/phcard3.png") 100% no-repeat;
+}
+.new-block-2:nth-child(1){
+	background: url("../files/phcard4.png") 100% no-repeat;
+}
+.new-block-2:nth-child(2){
+	background: url("../files/phcard5.png") 100% no-repeat;
+}
+.new-block-2:nth-child(3){
+	background: url("../files/phcard6.png") 100% no-repeat;
+}
+.new-info {
+	margin: 30px;
+}
+.hr-2 {
+	border: none;
+	color: black;
+	background-color: black;
+	margin-top: -9px;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+}
+.pnew{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	font-size: 12px;
+	color:#515151;
+	
+}
+.pnew-cop {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: -5px;
+	font-size: 12px;
+	color:white;
+}
+.pnew-cop-2 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	font-weight: 400;
+	font-size: 20px;
+	color:black;	
+}
+.new-p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	font-weight: 600;
+	font-size: 92%;
+	color: rgba(0,0,0,0.5);
+}
