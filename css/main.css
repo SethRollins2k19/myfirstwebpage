@@ -182,16 +182,6 @@ body{
 	text-decoration: none;
 	color: black;
 }
-@media screen and (min-width: 900px) {
-	.block-cont {
-		display: flex;
-		flex-direction: column;
-		align-items:  center;
-		margin-left: 340px;
-		margin-top: 400px;
-
-	}
-}
 .block-cont hr{
 	border: none;
 	color: black;
